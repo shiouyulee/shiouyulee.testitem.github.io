@@ -1,0 +1,133 @@
+/*
+body
+*/
+
+body {
+    background-image: url(https://source.unsplash.com/400x200?nature);
+    background-repeat: no-repeat;
+}
+
+
+/*
+header
+*/
+
+header {
+    height: 300px;
+    color: rgba(229, 229, 18, 0.48);
+    font-style: oblique;
+    background-image: url(https://source.unsplash.com/400x200?nature);
+    /*    background-size: 100%; 圖片在縮小時會留白*/
+    /*    background-size: cover; 圖片在縮小時會只會看到局部*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+}
+
+
+/*
+sub-title
+*/
+
+.sub-title {
+    background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+    /* For Fx 3.6 to 15 */
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    /* Standard syntax (must be last) */
+    color: aqua;
+}
+
+
+/*
+引文
+*/
+
+bolckquote {
+    width: 300px;
+    background-image: url(../images/quote.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-position: right bottom;
+}
+
+
+/*
+縮圖區塊設定
+*/
+
+.thumbnail {
+    width: 25%;
+    float: left;
+}
+
+.thumbnail-img {
+    width: calc(100% - 10px);
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.thumbnail-img:hover {
+    -webkit-transform: scale(1.08);
+    /* Safari and Chrome */
+    -moz-transform: scale(1.08);
+    /* Firefox */
+    -ms-transform: scale(1.08);
+    /* IE 9 */
+    -o-transform: scale(1.08);
+    /* Opera */
+    transform: scale(1.08);
+}
+
+.caption-title {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+/*
+設定數值若無單位,則為倍數
+*/
+
+.caption-body {
+    line-height: 30px;
+}
+
+.caption-btn {
+    text-decoration: none;
+}
+
+.caption-btn {
+    display: block;
+    font-size: 16px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #d6546d;
+    border-radius: 5px;
+    background-color: #8acc76;
+    color: #d6546d;
+}
+
+.caption-btn:link {
+    font-size: 30px;
+}
+
+.caption-btn:visited {
+    color: #8d00cc;
+}
+
+.caption-btn:hover {
+    color: aqua;
+}
+
+.caption-btn:active {
+    color: blue;
+}

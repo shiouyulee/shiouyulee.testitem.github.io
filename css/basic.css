@@ -1,0 +1,35 @@
+/*
+所有標籤基礎設定
+*/
+
+* {
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: arial, sans-serif, monospace;
+}
+
+
+/*
+所有標籤基本設定
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+section,
+body,
+div,
+section,
+header {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*
+常用圖片設定
+*/
